@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="GuessTheNumberr&r.css">
+    <title>Guess The Number - Rules & Regulations</title>
+</head>
+<body>
+    <section class="howtoplay">
+        <div class="head"><b>HOW TO PLAY GUESS THE NUMBER?</b></div>
+        <div class="para">
+            <br>
+            Let's play a little game to give you an idea of how different algorithms for the same problem can have wildly different efficiencies. The computer is going to randomly select an integer from 1 to 100. You'll keep guessing numbers until you find the computer's number, and the computer will tell you each time if your guess was too high or too low.
+            <br>
+            <br>
+            Once you've found the number, reflect on what technique you used when deciding what number to guess next.
+            <br>
+            Maybe you guessed 1, then 2, then 3, then 4, and so on, until you guessed the right number. We call this approach linear search, because you guess all the numbers as if they were lined up in a row. It would work. But what is the highest number of guesses you could need? If the computer selects 100, you would need 100 guesses. Then again, you could be really lucky, which would be when the computer selects 1 and you get the number on your first guess. How about on average? If the computer is equally likely to select any number from 1 to 100, then on average you'll need 50 guesses. 
+            <br>
+            <br>
+        </div>
+        <div class="img"><img class="img" src="GuessTheNumberr&r1.png"></div>
+        <br><br>
+        <div class="rule">
+            <p class="rulename">How to guess the number in least guesses?</p>
+            <br>
+        </div>
+        <div class="para">
+            <br>
+            But you could do something more efficient than just guessing 1, 2, 3, 4, …, right? Since the computer tells you whether a guess is too low, too high, or correct, you can start off by guessing 50. If the number that the computer selected is less than 50, then because you know that 50 is too high, you can eliminate all the numbers from 50 to 100 from further consideration. If the number selected by the computer is greater than 8, then you can eliminate 1 through 50. Either way, you can eliminate half the numbers. On your next guess, eliminate half of the remaining numbers. Keep going, always eliminating half of the remaining numbers.
+            <br>
+            <br>
+            We call this halving approach binary search, and no matter which number from 1 to 100 the computer has selected, you should be able to find the number in at most 7 guesses with this technique.
+            <br>
+        </div>
+        <br><br><br>
+        <div class="emb"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdtFFmR2asE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="b">
+            <a href="GuessTheNumbergame.html"><input class="st" type="button" value="Start Game" /></a>
+        </div>
+    </section>
+</body>
+</html>

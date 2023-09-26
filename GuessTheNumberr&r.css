@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+.howtoplay{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.head{
+    padding-top:10px;
+    padding-bottom:30px;
+    padding-left:240px;
+    font-size:30px;
+    font-weight:800px;
+    color:brown;
+}
+.rule{
+    display:flex;
+}
+.rulenum{
+    font-size:23px;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:darkred;
+}
+.rulename{
+    font-size:23px;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:blueviolet
+}
+.para{
+    font-size:20px;
+
+}
+.img{
+    height:200px;
+    width:300px;
+    padding-left:200px;
+}
+.emb{
+    padding-left:200px;
+}
+.b{
+    padding-left:450px;
+    padding-top:30px;
+    padding-bottom:40px;
+}
+.st{
+    height:30px;
+    width:100px;
+    color:blueviolet;
+    font-weight: bolder;
+    border:2px solid green;
+    border-radius:10px;
+    background-color:honeydew;
+}
+.st:hover{
+    border:2px solid lightpink;
+}

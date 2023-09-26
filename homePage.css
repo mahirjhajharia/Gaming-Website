@@ -1,0 +1,411 @@
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    width:15%;
+    display:flex;
+    justify-content:center;
+}
+.logo img{
+    width:35%;
+    border:1px solid grey;
+    border-radius:40px;
+}
+.navbar{
+    display:flex;
+    position:sticky;
+    top:0;
+    cursor:pointer;
+}
+.nav-list{
+    width:65%;
+    display:flex;
+    align-items:center;
+}
+.nav-list li{
+    list-style:none;
+    padding:20px;
+    font-size:15px;
+}
+.nav-list li a{
+    text-decoration:none;
+    color:lightslategrey;
+}
+.nav-list li a:hover{
+    color:lightcoral;
+}
+.rightNav{
+    width:35%;
+    text-align:right;
+    padding:20px;
+}
+#search{
+    border:1px solid lightslategray;
+    font-size:15px;
+    width:130px;
+    border:2px solid lightseagreen;
+    border-radius:3px;
+}
+.background{
+    background:rgba(0,0,0,0.9) url('Background.jpg');
+    background-size:cover;
+    background-blend-mode:darken;
+}
+.firstSection{
+    height:80vh;
+}
+.box-main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:lightyellow;
+    font-family: Georgia,'Times New Roman',Times,serif;
+}
+.firstHalf{
+    width:60%;
+    padding:100px;
+    padding-left:150px;
+    padding-top:120px;
+
+}
+.secondHalf{
+    width:40%;
+    
+    padding:50px;
+    padding-top:75px;
+}
+.idk{
+    align-items: baseline;
+    border-radius:10px; 
+    width:350px;
+    height:180px;
+    border-radius:10px;
+    border:2px solid plum;
+}
+.text-big{
+    font-size:25px;
+    color:rgba(188,143,143,0.4);
+}
+
+.text-small{
+    font-size:18px;
+    color:rgba(120,183,202,0.4);
+    padding-top:10px;
+    padding-bottom:12px;
+    padding-left:25px;
+}
+.button1{
+    padding-left:70px;
+    padding-right:30px;  
+}
+.btn1{
+    padding:2px 5px;
+    background:none;
+    color:white;
+    font-family:inherit; 
+    margin:2px;
+    border:2px solid lightslategrey;
+    border-radius:3px; 
+    cursor:pointer;
+}
+.btn2{
+    padding:2px 5px;
+    background:none;
+    color:white;
+    font-family:inherit;
+    margin:2px;
+    border:2px solid lightslategrey;
+    border-radius:3px; 
+    cursor:pointer;
+}
+.btn-sm{
+    padding:2px 5px;
+    background:none;
+    color:white;
+    font-family:inherit;
+    border-radius:3px;
+    cursor:pointer;
+    border:2px solid lightslategrey;
+    margin:2px;
+}
+.end{
+    background:rgba(0,0,0,0.9) url('Pictures Used/4.jpg');
+    background-size:cover;
+    background-blend-mode:darken;   
+}
+.sectionTag1{
+    padding-top:25px;
+    padding-bottom:20px;
+    padding-right:40px;
+    padding-left:40px;
+    align-items:center;
+    font-size:35px;
+    color:rgba(152,251,152,0.2);
+}
+.sec1{
+    display:flex;
+    padding-right:30px;
+    padding-left:40px;   
+}
+.sec2{
+    display:flex;
+    padding-right:30px;
+    padding-left:40px;
+    padding-top:20px;
+    padding-bottom:20px;  
+}
+.sectionSubTag1{
+    color:rgba(240,128,128,0.3);
+    font-family:'Times New Roman',Times,serif;
+}
+.secSubTag2{
+    color:rgba(240,128,128,0.3);
+    font-family:'Times New Roman',Times,serif;
+}
+.thumbnail1{
+    padding-top:20px;
+    padding-left:40px;
+    padding-right:30px;
+    padding-bottom:20px;
+}
+.thumbnail2{
+    padding-top:20px;
+    padding-left:40px;
+    padding-right:30px;
+    padding-bottom:20px;
+}
+.imgFluid1{
+    width:300px;
+    height:140px;
+    border-radius:20px;
+    border:2px solid plum;
+}
+.imgFluid2{
+    width:300px;
+    height:180px;
+    border-radius:20px;
+    border:2px solid plum;
+}
+.para1{
+    width:60%;
+    padding:20px;
+    align-items:center;   
+}
+.para2{
+    width:60%;
+    padding:20px;
+    align-items:center;
+}
+.contact{
+    background:rgba(0,0,0,0.9) url('ContactUs.png');
+    background-blend-mode:darken;
+    height:80vh;
+}
+.text-center{
+    text-align:center;
+    padding-top:30px;
+    color:lightcoral;
+}
+.form{
+    max-width:500px;
+    margin:15px auto;
+}
+.form input{
+    width:100%;
+    padding:2px 4px;
+    border:1px solid grey;
+    border-radius:4px;
+    background-color:rgba(176,196,222,0.9);
+}
+.form textarea{
+    width:100%;
+    padding:2px 4px;
+    border:1px solid grey;
+    border-radius:4px;
+    background-color:rgba(176,196,222,0.9);
+}
+.form select{
+    width:100%;
+    padding:2px 4px;
+    border:1px solid grey;
+    border-radius:4px;
+    background-color:rgba(176,196,222,0.9);
+}
+.ch{
+    font-size:17px;
+    color:rgba(188,143,143,0.5);
+    padding-top:15px;
+    padding-bottom:2px;
+}
+.aend{
+    padding-top:15px;
+    padding-left:200px;
+}
+.lbutton{
+    padding:4px 10px;
+    border-radius:2px;
+    border:1px solid palegoldenrod;
+    background-color:mediumspringgreen;
+    cursor:pointer;
+}
+.foot{
+    padding-top:2px;
+    padding-bottom:5px;
+    background-color:lightgrey;
+    padding-left:520px;
+}
+.burger{
+    display:none;
+    position:absolute;
+    cursor:pointer;
+    right:50%;
+    top:20px;
+    
+}
+.line{
+    width:20px;
+    background-color:white;
+    height:2px;
+    margin:3px 3px;
+}
+
+@media screen and (max-width:1000px){
+    .navbar{
+        flex-direction:column;
+        padding-top:20px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .rightNav{
+        text-align: center;
+    }
+
+    .btn{
+        width:10%;
+    }
+    #search{
+        width:15%;
+        
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav{
+        height:22px;
+    }
+}
+
+/*GAME SECTION*/
+.headi{
+    font-size:25px;
+    color:lightcoral;
+    padding-top:20px;
+    padding-left:440px;
+}
+.allgame{
+    padding:40px;
+}
+.p2{
+    padding-left:160px;
+    padding-right:20px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.row1,.row2{
+    display:flex;
+    padding-bottom:30px;
+    padding-left:20px;
+}
+.gamebox{
+    border:2px solid black;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    border-radius:25px;
+    box-shadow:3px 3px 3px 3px grey;
+    margin:10px;
+}
+.gamebox:hover{
+    box-shadow:3px 3px 3px 3px lightblue;
+}
+
+.gameimg{
+    width:160px;
+    height:120px;
+    border-radius:10px;
+    padding-left:10px;
+}
+.gameh{
+    padding:5px;
+    padding-left:10px;
+    height:200px;
+    width:200px;
+}
+.gamename{
+    font-weight:400px;
+    font-size:20px;
+    color: darkcyan;
+    padding-top:20px;
+    text-align: center;
+    padding-bottom:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.imggame{
+    border-radius:10px;
+}
+.gameh a{
+    text-decoration:none;
+}
+
+
+
+.meraform{
+    padding-left:360px;
+    padding-top:40px;
+}
+
+/* ABOUT US */
+.about{
+    padding-left:60px;
+    padding-right:60px;
+    background:rgba(0,0,0,0.9) url('AboutUs.jpg');
+    background-blend-mode:darken;
+    height:100vh;
+}
+.cont{
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.content{
+    font-size:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family:'Times New Roman', Times, serif;
+    color:lightslategray;
+}
+.content li{
+    padding-bottom:10px;
+}
+.xyz{
+    padding-top:50px;
+    font-size:25px;
+    color:lightcoral;
+    padding-left:450px;
+    padding-bottom: 30px;
+}
+.smallheading{
+    padding-top:20px;
+    color:darkmagenta
+}
+
+
+
+
+
+
+
